@@ -1,0 +1,12 @@
+{
+  "name": "dogfinder",
+  "version": "1.0.0",
+  "description": "DogFinder App will match you to your perfect dog.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Efosa Ogiesoba",
+  "license": "ISC"
+}
