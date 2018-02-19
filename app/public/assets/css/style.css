@@ -1,0 +1,8 @@
+body, html, .container {
+    background-image: url("assets/images/dogBackground.jpg");
+    color: black;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+}
