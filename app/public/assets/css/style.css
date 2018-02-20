@@ -1,8 +1,44 @@
 body, html, .container {
-    background-image: url("assets/images/dogBackground.jpg");
-    color: black;
+    color: #ffffff;
+    background: linear-gradient(to bottom right, rgb(23, 0, 32), rgb(16, 0, 59));
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
     -webkit-text-size-adjust: auto;
     -moz-text-size-adjust: auto;
 }
+.title{
+    font-size: 80px;
+    margin-bottom:10px;
+}
+.table {
+    display: table;
+    height: 100%;
+    margin: 0px;
+}
+.cell-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.dogPic{
+    width: 400px;
+    height: 360px;
+    margin: auto;
+}
+
+.space{
+    padding: 30px 20px 30px;
+    margin: 40px 0px 40px;
+}
+.btn-sample { 
+    color: #ffffff; 
+    background-color: rgb(68, 2, 112); 
+    border-color: #1d0029; 
+} 
+.btn-sample:hover{ 
+color: #ffffff; 
+background-color: rgb(110, 55, 182); 
+border-color: #1d0029; 
+} 
+
+   
