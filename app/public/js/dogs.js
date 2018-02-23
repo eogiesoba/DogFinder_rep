@@ -4,8 +4,6 @@ $(document).ready(function () { //This ensures DOM elements are loaded
     // When user clicks add-btn
     $("#add-btn").on("click", function (event) {
         // event.preventDefault();
-        console.log("you are about to enter the api route get call");
-
         // Creates a new survey object
         var newSurvey = { 
             Q1: parseInt($("#question1").val()),  
@@ -32,11 +30,11 @@ $(document).ready(function () { //This ensures DOM elements are loaded
                 }
             }
         })();
-       console.log(pass);
+
         //An AJAX request wit jQuery. This finds the matching dog row to be used here on the front-end
         if (pass) {
             $.post("/api/match", newSurvey, function (data) {
-                console.log("New Survey: ", newSurvey);
+                alert("Matching Dog: " + data.DogName + "\n Matching Link: " + data.Link);
             });
         }else{
             alert("Please fill in all fields in order to complete survey");

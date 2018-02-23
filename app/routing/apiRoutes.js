@@ -40,13 +40,13 @@ module.exports = function(app) {
           totalDiff.push(diff);
       }
       var index = totalDiff.indexOf(Math.min(...totalDiff));
-      var id = index + 1;
+      var matchingRow = index + 1;//This will equal the row number of the matching dog!
 
       console.log(surveyArr);
       console.log(tableArr);
       console.log(totalDiff);
       console.log(index);
-      res.end();
+      res.json(results[matchingRow]);
     });
   });
 };
