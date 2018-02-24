@@ -34,7 +34,7 @@ $(document).ready(function () { //This ensures DOM elements are loaded
         //An AJAX request wit jQuery. This finds the matching dog row to be used here on the front-end
         if (pass) {
             $.post("/match", newSurvey, function (data) {
-                alert("Matching Dog: " + data.DogName + "\n Matching Link: " + data.Link);
+                alert("Matching Dog: " + data[10] + "\n Matching Link: " + data[11]);
             });
         }else{
             alert("Please fill in all fields in order to complete survey");
