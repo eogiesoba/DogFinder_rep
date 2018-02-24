@@ -11,7 +11,7 @@ var Dogs = require("../models/table.js");
 module.exports = function(app) {
 
   // Get DB info and find matching dog, then send dog info to the front-end. 
-  app.post("/api/match", function(req, res) {
+  app.post("/match", function(req, res) {
     Dogs.findAll({}).then(results => {
       var surveyArr = [];
       var tableArr = [];
