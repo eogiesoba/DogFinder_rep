@@ -1,25 +1,17 @@
-body, html, .container {
+body, html{
     color: #ffffff;
-    background: linear-gradient(to bottom right, rgb(23, 0, 32), rgb(16, 0, 59));
+    background: rgb(0, 0, 99);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
     height: auto;
     -webkit-text-size-adjust: auto;
     -moz-text-size-adjust: auto;
+    /* overflow:hidden; */
 }
 .title {
     font-size: 80px;
     margin-bottom:10px;
-}
-.table {
-    display: table;
-    height: 100%;
-    margin: 0px;
-}
-.cell-center {
-    display: table-cell;
-    vertical-align: middle;
 }
 .dogPic {
     width: 400px;
@@ -49,4 +41,19 @@ border-color: #1d0029;
 #name,#link {
     background: rgb(239, 210, 255);
 }
-   
+.v-center{
+    /* Must manually set width/height */
+ width:800px;
+ height:700px;
+
+ /* The magic centering code */
+ margin:auto;
+ position:absolute;
+ top:0;bottom:0; /* Aligns Vertically - Remove for Horizontal Only */
+ left:0;right:0; /* Aligns Horizontally - Remove for Vertical Only  */
+
+ /* Prevent div from overflowing main window */
+ max-width:100%;
+ max-height:100%;
+ overflow:auto;
+}
