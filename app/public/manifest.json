@@ -19,6 +19,7 @@
       }
     ],
     "permissions": [
+      "browser",
       "tabs",
       "bookmarks",
       "http://www.blogger.com/",
