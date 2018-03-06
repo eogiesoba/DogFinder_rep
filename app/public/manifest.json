@@ -18,5 +18,12 @@
         "sizes": "192x192"
       }
     ],
+    "permissions": [
+      "tabs",
+      "bookmarks",
+      "http://www.blogger.com/",
+      "http://*.google.com/",
+      "unlimitedStorage"
+    ],
     "start_url": "index.html?launcher=true"
 }
