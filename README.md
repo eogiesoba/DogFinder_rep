@@ -15,7 +15,7 @@ This is a simple app that will help users find their dream dog. It was built as 
 
 # Screenshot - 2 - Dog Finder Survey Page
 
-![Dog Finder Survey Page](app/public/assets/images/dogFinder.png)
+![Dog Finder Survey Page](app/public/assets/images/dogPicture.png)
 
 # IceBox
 
