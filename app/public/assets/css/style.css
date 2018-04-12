@@ -59,3 +59,32 @@ border-color: #1d0029;
  right:0;
  left:0;
 }
+
+#closeModal{
+    width: 100%;
+}
+
+.modal-title{
+    width: 100%;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal-dog{
+    width: 100%;
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+.dogImage{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.modal-body{
+    text-align: center;
+}
